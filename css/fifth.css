@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row{
+    margin-left: 20px;
+}
+.p{
+    text-align: center;
+}
+.container{
+    margin: 250px 20px auto 0px;
+    overflow:hidden;
+}
+h4{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.send{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    background: rgb(252, 0, 80);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+}
+textarea{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding:5px;
+}
+.rateyo{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}

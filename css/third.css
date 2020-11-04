@@ -1,0 +1,85 @@
+.header{
+    font-family: 'Yellowtail', cursive !important;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+.cart-total {  
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+
+#cart-total-price {
+    float: right;
+    color: #333;
+    font-size: 1.1em;
+}
+.gst{
+    color: black;
+    margin-top: 10px;
+}
+.gst-title{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    margin-right: 18px;
+    padding-left: 5px;
+}
+.gst-price{
+    float: right;
+    color: #333;
+    font-size: 1.1em;
+}
+.total{
+    color: black;
+    margin-top: 10px;
+}
+.total-title{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    margin-right: 18px;
+    padding-left: 5px;
+}
+.total-price{
+    float: right;
+    color: #333;
+    font-size: 1.1em;
+}
+.moreButtons{
+    margin-top: 10px;
+}
+.payment{
+    padding: 8px 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(252, 0, 80);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.order{
+    padding: 8px 8px;
+    margin-right: 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(252, 0, 80);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

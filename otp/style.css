@@ -1,0 +1,110 @@
+body {
+    font-size: 0.9em;
+    color: #212121;
+    font-family: Arial;
+}
+.container{
+    margin: 200px 35px auto 35px;
+	width: 350px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px #ccc; 
+}
+
+#frm-mobile-verification {
+    border: #E0E0E0 1px solid;
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-heading {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+
+.get-name{
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: #E0E0E0 1px solid;  
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.form-row {
+    margin-bottom: 30px;
+}
+
+.form-input {
+    padding: 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: #E0E0E0 1px solid;
+}
+
+.btnSubmit {
+    font-size: 16px;
+    background: rgb(252, 0, 80);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    /* width: 100%; */
+}
+
+
+.error {
+    color: #483333;
+    padding: 10px;
+    background: #ffbcbc;
+    border: #efb0b0 1px solid;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+    display:none;
+    box-sizing: border-box;
+}
+
+.success {
+    color: #483333;
+    padding: 10px 20px;
+    background: #cff9b5;
+    border: #bce4a3 1px solid;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 350px;
+    display:none;
+    box-sizing: border-box;
+}
+
+.btnVerify {
+    background: #4CAF50;
+    padding: 8px 20px;
+    border: #449e48 1px solid;
+    border-radius: 3px;
+    width: 100%;
+    color: #FFF;
+}
+.send{
+    font-size: 16px;
+    background: rgb(252, 0, 80);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}

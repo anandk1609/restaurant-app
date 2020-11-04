@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    max-width: 80%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+  }
+
+  .heading{
+      font-size: 18px;
+      padding: 10px;
+      margin: 10px auto;
+      font-family: 'Pacifico', cursive;
+  }
+  
+  .body {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+  }
+
+.open-popup{
+    margin-top: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view{
+    font-size: 15px;
+    background: rgb(252, 0, 80);
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline:none;
+}
+  .close-popup{
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border:none;
+  }
+  
+  .close-popup:hover,
+  .close-popup:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .header
+  {
+    font-family: 'Yellowtail', cursive !important;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+.butt{
+    background: rgb(252, 0, 80);
+    border: none;
+    height:20px;
+    width: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    /* padding: 0px 1.5em; */
+}
+.section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .30em .50em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(255, 51, 0, 0.932);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.cart-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-rows {
+    display: flex;
+}
+
+.cart-item {
+    font-family: 'Poppins', sans-serif;
+    width: 22.5%;
+}
+
+
+.cart-price {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-price-header{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;  
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: rgb(252, 0, 80);
+    border: none;
+    height:21.5px;
+    width: 20px;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-send {
+    display: block;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    font-size: 1.75em;
+    font-family: 'Yellowtail';
+    background: rgb(252, 0, 80);
+}
