@@ -47,11 +47,14 @@ error_reporting(error_reporting() & ~E_NOTICE);
 $conn = new mysqli('localhost','kaze','alien','tofu');
 $feedback = $_POST["comment"];
 $rating = $_POST["rating"];
-$name = $_COOKIE['custname'];
-$sql = "INSERT INTO feedback (cust_name,rating,feedback) VALUES ('$name','$rating','$feedback')";
+$name = $_COOKIE["custname"];
+echo $feedback, $rating, $name;
+$sql = "INSERT INTO feedback(cust_name,rating,feedback) VALUES ('{$name}','{$rating}','{$feedback}')";
 if (mysqli_query($conn, $sql))
 {
     header('Location:sixth.html');
+}else{
+    echo "error";
 }
 mysqli_close($conn);
 ?>

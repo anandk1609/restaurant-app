@@ -61,7 +61,7 @@
     </div>
     <div class="moreButtons">
         <button class="order" onclick="window.location.href='second.php'">Order More</button>
-        <button class="payment" onclick="window.location.href='otp/fourth.php'">Proceed to payment</button>
+        <button class="payment" onclick="window.location.href='../otp/fourth.php'">Proceed to payment</button>
     </div>
 </body>
 </html>

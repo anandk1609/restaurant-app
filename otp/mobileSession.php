@@ -3,7 +3,7 @@ session_start();
 $gotu=($_POST['data']);
 $number = intval($gotu['number']);
 $name = $gotu['custname'];
-setcookie("custname",$name,time() + (20 * 365 * 24 * 60 * 60), "/");
+setcookie("custname","$name",time() + 10 * 60 * 60, false,"/");
 $total = $_SESSION['total'];
 $gst = $_SESSION['gst'];
 

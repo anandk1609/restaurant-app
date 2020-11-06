@@ -23,8 +23,6 @@
     if(!array_filter($errors)){
       session_start();
       $_SESSION['code']=$code = $_POST['code'];
-      setcookie("code",$code,time() + (20 * 365 * 24 * 60 * 60), "/");
-
       $_SESSION['count']=$count= $_POST['count'];
       $_SESSION['table_no']=$table_no= $_POST['table_no'];
 

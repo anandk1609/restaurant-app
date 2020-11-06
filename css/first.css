@@ -67,7 +67,6 @@ label{
   margin: 10px 0px 0px 55px;
 }
 
-/* here starts the addition */
 .select-css {
     display: block;
     font-size: 16px;
@@ -86,47 +85,34 @@ label{
     -webkit-appearance: none;
     appearance: none;
     background-color: #fff;
-    /* linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); */
-
-    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
     background-position: right .7em top 50%, 0 0;
-    /* icon size, then gradient */
     background-size: .65em auto, 100%;
     opacity: 0.3
 }
-/* Hide arrow icon in IE browsers */
+
 .select-css::-ms-expand {
     display: none;
 }
-/* Hover style */
+
 .select-css:hover {
     border-color: #888;
 }
-/* Focus style */
+
 .select-css:focus {
     border-color: #aaa;
-    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
     box-shadow: 0 0 0 3px -moz-mac-focusring;
     color: #222;
     outline: none;
 }
 
-/* Set options to normal weight */
 .select-css option {
     font-weight:normal;
 }
 
-/* Support for rtl text, explicit support for Arabic and Hebrew */
 *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css {
     background-position: left .7em top 50%, 0 0;
     padding: .6em .8em .5em 1.4em;
 }
-
-/* Disabled styles */
-/* .select-css:disabled, .select-css[aria-disabled=true] {
-    color: graytext;
-    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
-} */
 
 .select-css:disabled:hover, .select-css[aria-disabled=true] {
     border-color: #aaa;
